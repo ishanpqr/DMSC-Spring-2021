@@ -1,5 +1,5 @@
 # DMSC Log's
-Over here I put the things we worked on. Mostly fun Experiences.
+Over here I put the things we worked on. A lot of fun experiences.
 
 [LOGO](2021-02-11-LOGO.md)
 
