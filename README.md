@@ -2,4 +2,4 @@
 DevLog
 
 ## Class Notes
-I put usefull stuff here. I can even add images
+I put useful stuff here. I can even add images
