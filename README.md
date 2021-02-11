@@ -1,5 +1,5 @@
-# dmsc-devlog
-DevLog
+# DMSC Log's
+Over here I put the things we worked on. Mostly fun Experiences.
 
 [LOGO](2021-02-11-LOGO.md)
 
