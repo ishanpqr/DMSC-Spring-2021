@@ -1,6 +1,6 @@
 ## Algorithmic Walk
 
-	Repeat 5 times {_
+	Repeat 5 times {
 	 Go down street
 	 At intersection turn Random
 	 if encounter a dead end go back to last intersection and execute random function
