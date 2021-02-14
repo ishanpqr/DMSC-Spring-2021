@@ -1,24 +1,24 @@
 ## Algorithmic Walk
 
-_**Repeat 5 times {
+				_**Repeat 5 times {
 
-_**Go down street
+				 _**Go down street
  
- _**At intersection turn Random
+ 				 _**At intersection turn Random
  
-_**if encounter a dead end go back to last intersection and execute random function
+				 _**if encounter a dead end go back to last intersection and execute random function
 
-_**}
+				_**}
 
-_**Random {
+				_**Random {
 
- _**random 2 (flip a coin)
+ 				 _**random 2 (flip a coin)
  
- _**if 1(heads): go down street with least number of cars within vision
+				 _**if 1(heads): go down street with least number of cars within vision
  
- _**if 2(tails): go down street with least amount of snow
+ 				 _**if 2(tails): go down street with least amount of snow
  
-_**}
+				_**}
 
 I am going to start with the Random function. While I was leaving home, I reached into my pocket and I realized that I had a coin with me so to make things interesting I introduced it my random function. Since it was snowing, and some streets were clear, and some were not I thought it was a good deciding factor to where I go. Since I hate it when people park their cars on the road, I decided to give me a chance to go down streets which have the least number of cars. With those two in mind, I started on algorithmic walk.
 When I started my walk it just stopped snowing so I the sky was completely white which looked nice with the bare trees adding a nice plain aesthetic. When I reached the second intersection the random function decided to send me towards the dead end to counter that I added the if statement to my walk in which I would go back to the last intersection and flip my coin again and choose another street.
