@@ -1,4 +1,4 @@
-# Algorithmic Walk
+## Algorithmic Walk
 
 _Repeat 5 times {
 
