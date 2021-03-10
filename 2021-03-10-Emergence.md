@@ -11,3 +11,8 @@ Now for the basic [chaser](https://editor.p5js.org/ishanpqr/sketches/kXpaQHW0o) 
 Chasers:
 ![c1.JPG]({{site.baseurl}}/c1.JPG)
 
+Chasers Chasing after the bait:
+![c2.png]({{site.baseurl}}/c2.png)
+
+My plan was to create 
+
