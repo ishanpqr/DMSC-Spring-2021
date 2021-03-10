@@ -7,3 +7,5 @@
 [Music Support Tool](2021-02-14-Music Support Tool.md)
 
 [No Paint](2021-02-14-No-Paint.md)
+
+[My take on emergence in AI](2021-03-10-Emergence.md)
