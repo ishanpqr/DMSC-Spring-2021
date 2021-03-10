@@ -4,7 +4,4 @@ I am going to start by what I feel what emergence essentially means. For me when
 
 In the case of artificial intelligence/life my definition of emergence is very similar to the bottom-up approach to AI where the Program will be given a very basic definition of learning (according to my definition this would be the "basic package") and then the program would basically... learn.
 
-To see this clearly we can look at this article: https://www.polygon.com/2020/5/22/21266829/pac-man-nvidia-ai-game-gan-40th-anniversary.
-
-
-
+To see this clearly we can look at this experiment done by [Nvidia to recreate Pac Man without any game code](https://www.polygon.com/2020/5/22/21266829/pac-man-nvidia-ai-game-gan-40th-anniversary). 
