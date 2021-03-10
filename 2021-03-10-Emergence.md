@@ -8,11 +8,11 @@ To see this clearly we can look at this experiment done by [Nvidia to recreate P
 
 Now for the basic [chaser](https://editor.p5js.org/ishanpqr/sketches/kXpaQHW0o) I made. I incorporated a chasing mechanic where initially the chasers would spawn with different sizes/masses (which affect their speed) and I could create small little cirlces that act as "bait" and the chasers wouls chase after the bait.
 
-Chasers:
+Chasers at rest:
 ![c1.JPG]({{site.baseurl}}/c1.JPG)
 
 Chasers Chasing after the bait:
 ![c2.png]({{site.baseurl}}/c2.png)
 
-My plan was to create 
+My plan was to create a function where the first chaser to reach the bait would essentially "eat" the bait and gain mass and then after reaching a certain mass they would split but I couldn't quite get that part to work but what I was imagining is that at some point all my chasers would be the same size because eventually the small chasers would grow in mass after eating too much bait and their speed would slow down matching the other chasers to the point where each chaser would have an equal chance at eating the bait.
 
