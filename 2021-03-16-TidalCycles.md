@@ -10,8 +10,8 @@ This was my main tune but to add to this I started messing with the stack functi
 
 Code Snippets:
 
-![e1.JPG]({{site.baseurl}}/e1.png)
+![e1.JPG]({{site.baseurl}}/e1.JPG)
 
 Final Result:
 
-![e2.JPG]({{site.baseurl}}/e2.png)
+![e2.JPG]({{site.baseurl}}/e2.JPG)
