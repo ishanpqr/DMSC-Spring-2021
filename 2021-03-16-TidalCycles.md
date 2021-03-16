@@ -14,4 +14,4 @@ Code Snippets:
 
 Final Result:
 
-![e2.JPG]({{site.baseurl}}/e2.JPG)
+![e2.JPG]({{site.baseurl}}/e2.png)
