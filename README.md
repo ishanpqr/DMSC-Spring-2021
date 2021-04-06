@@ -11,3 +11,5 @@
 [My take on emergence in AI](2021-03-10-Emergence.md)
 
 [TidalCycles](2021-03-16-TidalCycles.md)
+
+[Hydra](2021-04-05-Hydra.md)
