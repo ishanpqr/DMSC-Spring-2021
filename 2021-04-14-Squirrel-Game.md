@@ -1,6 +1,6 @@
 ## Squirrel Game - Generating Background and random Objects within 
 
-//LINK TO FINAL PROJECT
+[Link to Project](https://editor.p5js.org/sofiajaramillo/full/-5A3rq7Vx)
 
 I was tasked the job too generate the background and randomnly place environmental objects (Grass, Flowers) on the background.
 
