@@ -33,6 +33,6 @@ Pseudocode:
       		g[gCount] = new Grass(randX, randY)
       		gCount++;
     	}
-  	}
+  }
 
 
