@@ -34,5 +34,32 @@ Pseudocode:
       gCount++;
      }
     }
+  
+Example:
 
+//Image
 
+Now For the flowers I did something different. Since my grass would appear a bit clustered I wanted my flowers to not cluster. So I made sure that each flower was atleast 100 pixels apart from each other. TO implement that I made a while loop that would stop until 10 flowers had been created and inside the while loop I had another loop that made sure that the current flowers position was atleast 100 pixels from other flowers and if it was not it choose another set of random positions and repeat the process.
+
+Pseudocode:
+
+	fl[0] = new Flower(randX, randY);
+    fCount = 1;
+    while (fCount < 10) {
+     randX = random(width);
+     randY = random(height);
+     for (let i = 0; i < fl.length; i++) {
+      if (dist(fl[i].x, fl[i].y, randX, randY) < 100) {
+       check = false;
+      }
+     }
+     if (check == true) {
+      fl[fCount] = new Flower(randX, randY)
+      fCount++;
+     }
+    check = true;
+  	}
+   
+Example:
+
+//Image
