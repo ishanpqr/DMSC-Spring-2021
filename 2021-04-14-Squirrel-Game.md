@@ -60,7 +60,7 @@ Pseudocode:
       fCount++;
      }
     check = true;
-  	}
+   }
    
 Example:
 
