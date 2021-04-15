@@ -11,28 +11,28 @@ Pseudocode:
 	
     q1,q2,q3,q4: represent the four quadrants
 	while (q1 + q2 + q3 + q4 < 8) {
-    	randX = random(width);
-    	randY = random(height);
-    	if (randX > 0 && randX < width / 2 && randY > 0 && randY < height / 2 && q1 < 2) {
-      		q1++;
-      		g[gCount] = new Grass(randX, randY)
-      		gCount++;
-    	}
-    	if (randX > width / 2 && randX < width && randY > 0 && randY < height / 2 && q2 < 2) {
-      		q2++;
-      		g[gCount] = new Grass(randX, randY)
-      		gCount++;
-    	}
-    	if (randX > 0 && randX < width / 2 && randY > height / 2 && randY < height && q3 < 2) {
-      		q3++;
-      		g[gCount] = new Grass(randX, randY)
-      		gCount++;
-    	}
-    	if (randX > width / 2 && randX < width && randY > height / 2 && randY < height && q4 < 2) {
-      		q4++;
-      		g[gCount] = new Grass(randX, randY)
-      		gCount++;
-    	}
-  }
+     randX = random(width);
+     randY = random(height);
+     if (randX > 0 && randX < width / 2 && randY > 0 && randY < height / 2 && q1 < 2) {
+      q1++;
+      g[gCount] = new Grass(randX, randY)
+      gCount++;
+     }
+     if (randX > width / 2 && randX < width && randY > 0 && randY < height / 2 && q2 < 2) {
+      q2++;
+      g[gCount] = new Grass(randX, randY)
+      gCount++;
+     }
+     if (randX > 0 && randX < width / 2 && randY > height / 2 && randY < height && q3 < 2) {
+      q3++;
+      g[gCount] = new Grass(randX, randY)
+      gCount++;
+     }
+     if (randX > width / 2 && randX < width && randY > height / 2 && randY < height && q4 < 2) {
+      q4++;
+      g[gCount] = new Grass(randX, randY)
+      gCount++;
+     }
+    }
 
 
