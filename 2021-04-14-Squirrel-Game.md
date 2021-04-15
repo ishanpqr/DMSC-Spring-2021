@@ -39,7 +39,7 @@ Pseudocode:
   
 Example:
 
-//Image
+![sg1.JPG]({{site.baseurl}}/sg1.JPG)
 
 Now For the flowers I did something different. Since my grass would appear a bit clustered I wanted my flowers to not cluster. So I made sure that each flower was atleast 100 pixels apart from each other. TO implement that I made a while loop that would stop until 10 flowers had been created and inside the while loop I had another loop that made sure that the current flowers position was atleast 100 pixels from other flowers and if it was not it choose another set of random positions and repeat the process.
 
@@ -64,10 +64,10 @@ Pseudocode:
    
 Example:
 
-//Image
+![sg2.JPG]({{site.baseurl}}/sg2.JPG)
 
 Now I combined these two components and made a semi-random background.
 
 Combined Example:
 
-//Image
+![sg3.JPG]({{site.baseurl}}/sg3.JPG)
