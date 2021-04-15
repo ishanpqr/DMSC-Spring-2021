@@ -13,3 +13,5 @@
 [TidalCycles](2021-03-16-TidalCycles.md)
 
 [Hydra](2021-04-05-Hydra.md)
+
+[Squirrel Game](2021-04-14-Squirrel-Game.md)
