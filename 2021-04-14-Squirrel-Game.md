@@ -1,5 +1,7 @@
 ## Squirrel Game - Generating Background and random Objects within 
 
+//LINK TO FINAL PROJECT
+
 I was tasked the job too generate the background and randomnly place environmental objects (Grass, Flowers) on the background.
 
 Before going into the implementions I wanted to talk about the challenges of randomly placing things. When you use the random function, your objects tend to cluster together and to avoid that I tweaked how my random values would work. I implemented two methods for placing grass and flowers.
@@ -61,5 +63,11 @@ Pseudocode:
   	}
    
 Example:
+
+//Image
+
+Now I combined these two components and made a semi-random background.
+
+Combined Example:
 
 //Image
