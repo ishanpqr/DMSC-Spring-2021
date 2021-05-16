@@ -54,7 +54,15 @@ Now we have a map with rooms with proper walls. But there is one more thing we n
 
 //Image
 
+After these three steps the map is created, rooms are filled and decorated, coins are placed and the dungeon is ready to be explored. Wait we forgot an important key aspect "The Player".
 
+### The Player
+
+The Player only needs to do two things:
+
+-**_Move_**: The player uses basic code to move. If the "W" key is pressed then the player goes up and so on. But there is another thing attached to this Move method in the Player class and that is the Player character display. I approached this in a very rudimentary way. I took 5 images Player walking up,down,left,right and Player rest then I attached those images with the respective key. So for example if the "W" key is pressed then the 'Player walking up image' is displayed or if no key is pressed the the Player rest image' is displayed.
+
+Now that the player can move and it also looks good moving we need to make sure that the player does not go where its not supposed and vice versa.
 
 
    
