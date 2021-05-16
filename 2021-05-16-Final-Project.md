@@ -42,7 +42,12 @@ The map generation is handled in the "setup" part since I only want to create th
 
 Now while I am creating a new object and putting the Room object in the array, at the same time I run my createRoom() method int the Room class which creates the room.... more specifically it creates the walls of the room.
 
--**_createRoom()_**: In this method 
+-**_createRoom()_**: This method randomly chooses the number of the sides it wants to put walls on and then it puts those many walls on random sides. This is the method that chooses which of the 4 T/F variables I mentioned in the "Generating Rooms" section should be True. Another thing this method needs to take care of is if the room is a border room / edge room of the map then it must have walls such that the player cannot get out of the room. This is where our "Debug Information" comes into play and helps us with that. The image below will help in understanding the idea behind this.
+
+//Image
+
+
+
 
    
   
