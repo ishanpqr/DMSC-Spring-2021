@@ -64,6 +64,8 @@ The Player only needs to do two things:
 
 Now that the player can move and it also looks good moving we need to make sure that the player does not go where its not supposed and vice versa.
 
+-**_checkCollision and advanceRoom_**: 
+
 
    
   
