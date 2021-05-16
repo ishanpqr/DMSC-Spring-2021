@@ -10,7 +10,7 @@ There are two things happening when the map of the dungeon is being created:
     
    -There exists a path between the start and the end and all the coins lie on that path.
 
-### _Generating Rooms_
+### _**Generating Rooms**_
 
 Before going into how a map is created we need to go into how each room in the map is created.
 
@@ -20,4 +20,4 @@ A room consists of:
    
    -**Background Tile**: I have three images that serve as background tiles. Each time a room is created          one of those images is randomly chosen to be the background tile. This tile represents the terrain          of the dungeon room.
    
-   -**Objects**: I have a small pool of objects: 3 types of trees, 3 types of flowers, boulder. Each time a        room is created these objects are randomly placed on the tile making sure that they are not too            close to each other
+   -**Objects**: I have a small pool of objects: 3 types of trees, 3 types of flowers, boulder. Each time a        room is created these objects are randomly placed on the tile making sure that they are not too            close to each other.
