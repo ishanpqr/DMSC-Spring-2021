@@ -50,7 +50,9 @@ After the map has been generated I run through the Map/Array again to make sure 
 
 Now we have a map with rooms with proper walls. But there is one more thing we need to do, we need to make sure that when we randomly choose our 'Start' and 'End' rooms we need to makes sure A path exists between both of them and this was the most challenging part of the project.
 
--**_Creating a path_**: In this part 
+-**_Creating a path_**: In this part the code starts at the 'Start room' then it looks at each of its possible neighbors/Rooms (4 neigbors max) and randomly chooses one of them to include in its path and it keeps doing that until it reaches the 'End room'. This process is very taxing and makes the initiallization of the game very slow. To improve its speed I made sure that the path doesnt backtrack too much. While the code is making its own path it also randomly chooses to put a coin in a room in the path which makes sure that all the coins are reachable.
+
+//Image
 
 
 
