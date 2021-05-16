@@ -18,4 +18,4 @@ A room consists of:
 
    -**Walls**: This is done with 4 T/F variables corresponding to each side of a room. For example if the         North side variable is marked as True then there will be a wall on the the North sid of the room.
    
-   -**Background Tile**: I have three images that serve as background tiles
+   -**Background Tile**: I have three images that serve as background tiles. Each time a room is created         one of those images is randomly chosen to be the background tile. This tile represents the terrain of       the dungeon room.
