@@ -46,6 +46,11 @@ Now while I am creating a new object and putting the Room object in the array, a
 
 //Image
 
+After the map has been generated I run through the Map/Array again to make sure that neigbouring rooms have the appropriate walls against each other. This means that, for example if Room 'A' is a neighbor with Room 'B' and Room 'B' is to the right of Room 'A'. If Room 'A' has a right wall then Room 'B' must have a left wall and vice versa. This is the idea behind what "checking neighbors" means.
+
+Now we have a map with rooms with proper walls. But there is one more thing we need to do, we need to make sure that when we randomly choose our 'Start' and 'End' rooms we need to makes sure A path exists between both of them and this was the most challenging part of the project.
+
+-**_Creating a path_**: In this part 
 
 
 
