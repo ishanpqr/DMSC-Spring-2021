@@ -30,10 +30,19 @@ A room consists of:
    
    -**Debug Information**: This info is added to a room has no visual impact on the room. It solely used        for debugging. I call this information the "Tag" of a room. I will explain this in detail in the            "Generating Map" section. Another peice of information stored is how many total rows and columns we        have in our map. All this information is provided to the class with the help of the constructor.
 
-These are the four main peices that make up my Room class. Since most of the things are randomly generated the only information needed to instantiate a Room object is: "Tag" of the room and the "Total number of rows and columns in the dungeon". The reason we need this information will be described in the next section "Generating Map".
+These are the five main peices that make up my Room class. Since most of the things are randomly generated the only information needed to instantiate a Room object is: "Tag" of the room and the "Total number of rows and columns in the dungeon". The reason we need this information will be described in the next section "Generating Map".
 
 ### _**Generating Map**_
 
+The map generation is handled in the "setup" part since I only want to create the map once. I start by creating an empty 2-dimensional array. Then I proceed to fill each space in that array with a Room object.
+
+-**_Tag_**: I wanted a way to keep track of my room objects other than by just looking it up in the array so I gave each object in the Room class a specific tag that can be used to differentiate them between each other. The image below will give an idea on how I chose the tags.
+
+//Image
+
+Now while I am creating a new object and putting the Room object in the array, at the same time I run my createRoom() method int the Room class which creates the room.... more specifically it creates the walls of the room.
+
+-**_createRoom()_**: In this method 
 
    
   
