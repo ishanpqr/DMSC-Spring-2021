@@ -76,6 +76,8 @@ With these three methods the Player implementation is finished and the game is n
 
 After implementing the Player and the Map I finished the game and added some Quality of Life things like music, text to show the amount of coins, a start and end page. After implementing QoL things the code was done and the game is playable.
 
+//Image
+
 ### Final Thoughts
 
 I had alot of fun creating this game. There were alot of challenging aspects in the code but nothing unsolvable. There are many things I would improve in the code especially in map generation so that it can create a larger grid at faster speeds. This experience really helped me to learn some aspects of game development and I hope to use this knowledge in my Senior Project game.
