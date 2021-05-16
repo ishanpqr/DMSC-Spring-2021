@@ -64,7 +64,7 @@ The Player only needs to do two things:
 
 Now that the player can move and it also looks good moving we need to make sure that the player does not go where its not supposed and vice versa.
 
--**_checkCollision and advanceRoom_**: 
+-**_checkCollision and advanceRoom_**: These method takes in the Room object and checks the T/F variables for the walls I described earlier. Then it checks that if a wall is present and the player is close to it then it disables movement in that direction. For example if there is a wall on the Top and the player is 30 pixels away from it then the player "Up" movement is dsabled which means that pressing the 'W' key wont do anything anymore but the moment it is more than 30 pixels away from the wall, the 'W' key will be able to do its thing. A similar thing is going on in advanceRoom but its the opposite, if the player is close to an edge of a screen and a wall does not exist there then it is allowed to advance to the next room.
 
 
    
