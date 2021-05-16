@@ -10,4 +10,6 @@ There are two things happening when the map of the dungeon is being created:
     
     -There exista a path between the start and the end and all the coins lie on that path.
 
+### Generating Rooms
 
+Before going into how a map is created I am going to talk about what a room consists
