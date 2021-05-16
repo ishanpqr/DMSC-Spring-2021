@@ -10,7 +10,7 @@ There are two things happening when the map of the dungeon is being created:
     
    -There exists a path between the start and the end and all the coins lie on that path.
 
-### _**Generating Rooms**_
+### **Generating Rooms**
 
 Before going into how a map is created we need to go into how each room in the map is created.
 
@@ -32,7 +32,7 @@ A room consists of:
 
 These are the five main peices that make up my Room class. Since most of the things are randomly generated the only information needed to instantiate a Room object is: "Tag" of the room and the "Total number of rows and columns in the dungeon". The reason we need this information will be described in the next section "Generating Map".
 
-### _**Generating Map**_
+### **Generating Map**
 
 The map generation is handled in the "setup" part since I only want to create the map once. I start by creating an empty 2-dimensional array. Then I proceed to fill each space in that array with a Room object.
 
