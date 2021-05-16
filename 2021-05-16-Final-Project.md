@@ -66,6 +66,20 @@ Now that the player can move and it also looks good moving we need to make sure 
 
 -**_checkCollision and advanceRoom_**: These method takes in the Room object and checks the T/F variables for the walls I described earlier. Then it checks that if a wall is present and the player is close to it then it disables movement in that direction. For example if there is a wall on the Top and the player is 30 pixels away from it then the player "Up" movement is dsabled which means that pressing the 'W' key wont do anything anymore but the moment it is more than 30 pixels away from the wall, the 'W' key will be able to do its thing. A similar thing is going on in advanceRoom but its the opposite, if the player is close to an edge of a screen and a wall does not exist there then it is allowed to advance to the next room. One thing in the advance room I forgot to put is that if the player exits a room from the right side then the player should be on the left side of the room of the next room.
 
+These are the two main peices to the player class. There is another important aspect to the player which collecting the coin but I implemented that in the room class.
+
+-**_collectCoin_**: I implemented this method in the Room class because this method handles some things which are implemented in the Room class (displaying the coin, showing the exit portal). The coin collection is handled in a basic way where if a player comes within a certain distance of a coin it collects it. After a coin is collected a counter is updated and if you collect all the coins an exit portal is then displayed and interactable in the end room.
+
+With these three methods the Player implementation is finished and the game is now playable.
+
+### The Game
+
+After implementing the Player and the Map I finished the game and added some Quality of Life things like music, text to show the amount of coins, a start and end page. After implementing QoL things the code was done and the game is playable.
+
+### Final Thoughts
+
+I had alot of fun creating this game. There were alot of challenging aspects in the code but nothing unsolvable. There are many things I would improve in the code especially in map generation so that it can create a larger grid at faster speeds. This experience really helped me to learn some aspects of game development and I hope to use this knowledge in my Senior Project game.
+
 
    
   
