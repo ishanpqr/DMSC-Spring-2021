@@ -6,10 +6,16 @@ I created a minigame which is basically a randomly generated dungeon. The goal i
 
 There are two things happening when the map of the dungeon is being created:
 
-  -Rooms are generated with random walls.
+   -Rooms are generated with random walls.
     
-  -There exists a path between the start and the end and all the coins lie on that path.
+   -There exists a path between the start and the end and all the coins lie on that path.
 
-### Generating Rooms
+### _Generating Rooms_
 
-Before going into how a map is created I am going to talk about what a room consists
+Before going into how a map is created we need to go into how each room in the map is created.
+
+A room consists of:
+
+   -**Walls**: This is done with 4 T/F variables corresponding to each side of a room. For example if the         North side variable is marked as True then there will be a wall on the the North sid of the room.
+   
+   -**Background Tile**: I have three images that serve as background tiles
